@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+  background-color: rgba(0, 1, 68, 0.829); 
+  height: 9rem;
+  position: sticky;
+ 
+    
+    }
+
+    
+.lista_de_navegacion {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4rem;
+        font-size: 1.4rem;
+        margin: 1rem;
+        list-style-type: none;
+
+     }
+
+
+   
+    
+.header a {
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+a:visited {
+        color: white;
+}
+
+a:hover {
+    color: rgb(14, 212, 238)
+}
+
+
+a:active {
+        border: rgb(14, 212, 238) solid 3px ;
+}
+
+
+
+
+.fiestas-culturales {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.fiestas-culturales h2{
+    color: rgb(25, 125, 255);
+}
+
+
+
+
+.imgDuraznos {
+margin: 1rem;
+padding: 1rem;
+width: 30rem;
+height: 28rem;
+float: left;
+}
+
+.texto-duraznos{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+
+
+
+
+.imgFortines{
+    margin:1rem;
+    padding: 1rem;
+    float: right;
+}
+
+.texto-fortines {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+    
+
+
+.imgEmpanadas {
+    margin: 1rem;
+    padding: 1rem;
+    float: left;
+    width: 37rem;
+    height: 24rem;
+}
+
+.texto-empanadas{
+           font-size: 1.5rem;
+           margin: 1rem;
+}
+
+
+
+.Paquetes {
+    font-family: 'Times New Roman', Times, serif;
+     margin: 1.5rem;
+     padding: 1.5rem;
+     font-size: 1.5rem;
+ }
+ 
+ .Paquetes p {
+     font-size: 1.4rem; 
+     
+ }
+
+ .Paquetes h2 {
+    color:  rgb(25, 125, 255);
+ }
+
+.paquete_basico{
+  color: white;
+  background: linear-gradient(rgb(23, 201, 255),rgba(0, 0, 0, 0.699));
+  padding: 2rem;
+  margin: 2rem;
+ font-size: 1.3rem;
+ height: 12rem;
+
+}
+
+
+.paquete_extra{
+    color: white;
+    background: linear-gradient(rgb(10, 228, 20), rgb(0, 0, 0));
+    padding: 2rem;
+    margin: 2rem;
+    font-size: 1.3rem;
+    height: 12rem;
+}
+
+.paquete_premium {
+    color: white;
+    background: linear-gradient(rgb(231, 255, 14), rgb(0, 0, 0));
+    padding: 2rem;
+    margin: 2rem;
+    font-size: 1.3rem;
+    height: 12rem;
+
+}
+
+
+.boton1 {
+    color: white;
+    background-color: rgb(0, 184, 184);
+    width: 5rem;
+    height: 2rem;
+}
+
+.boton2 {
+    color: white;
+    background-color: rgb(0, 218, 29);
+    width: 5rem;
+    height: 2rem;
+}
+
+.boton3 {
+       color: black;
+       background-color: rgb(255, 255, 0);
+       width: 5rem;
+       height: 2rem;
+}
+
+
+
+
+.footer{
+    background-color: rgba(0, 1, 68, 0.829) ;
+    font-size: 1rem;
+    padding: 1rem;
+    clear: both;
+    
+}
