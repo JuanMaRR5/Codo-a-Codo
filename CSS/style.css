@@ -276,7 +276,7 @@ float: left;
                 height: 28rem;
             }
             
-            .texto-empanadas{
+  .texto-empanadas{
                 font-family: Georgia, 'Times New Roman', Times, serif;
                        font-size: 1.6rem;
                        margin: 1rem;
@@ -284,13 +284,99 @@ float: left;
 
 
 
-            .Paquetes h2 {
+  .Paquetes h2 {
                 color:  rgb(0, 0, 0);
                 margin-bottom: 1rem;
              }
 
-             .Paquetes p{
+  .Paquetes p{
                 font-size: 1.6rem;
              }
+   
+.paquete_basico {
+    height: 14rem;
+}        
+.paquete_extra {
+    height: 14rem;
+}
+
+.paquete_premium{
+    height: 15rem;
+}
+
+.boton1{
+    width:6rem ;
+    height: 3rem;
+    font-size: 1.2rem;
+}
+
+.boton2 {
+    width:6rem ;
+    height: 3rem;
+    font-size: 1.2rem;
+}
+
+.boton3{
+    width:6rem ;
+    height: 3rem;
+    font-size: 1.2rem;
+}
+
+.footer{
+    font-size: 1.2rem;
+}
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+    .fiestas-culturales{
+        font-size: 1.6rem;
+    }
+
+    .celu1{
+        background-color: rgb(212, 212, 212);
+        margin-bottom: -11rem;
+    }
+
+    .celu2{
+        margin-bottom: -10rem;
+    }
+
+    .celu3{
+        background-color: rgb(212, 212, 212);
+        margin-bottom: -8.7rem;
+    }
+
+    .imgDuraznos {
+        width: 22rem;
+        height: 17rem;
+    }
+
+    .imgfortines{
+        width: 22.5rem;
+        height: 17rem;
+    }
+
+    .imgEmpanadas{
+        width: 22rem;
+        height: 17rem;
+    }
+
+    .p_texto{
+        margin-bottom: -2rem;
+    }
+
+    .paquete_extra{
+        height: 17rem;
+    }
+
+    .paquete_premium{
+        height: 18rem;
+    }
+
+
 
 }
