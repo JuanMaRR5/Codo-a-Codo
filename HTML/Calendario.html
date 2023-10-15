@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paquetes de viaje</title>
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/estilos.css">
     <link rel="icon" href="../Imagenes/TR2.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
 
-    <header class="header">
-           
-     
-      <nav>
-            <ul class="lista_de_navegacion">
-                <li><a href="">Inicio</a> </li>
-                 <li><a href="Calendario.html">Calendario</a> </li>
-                <li><a href="">Informacion de viaje</a> </li>
-                <li><a href="">Galeria de imagenes</a> </li>
-                <li><a href="">Contacto</a> </li>
-               
-            </ul>
-
-      </nav>
-</header>
+  <header class="header" id="inicio">
+    <img src="../Imagenes/hamburguesa.svg" alt="" class="hamburger">
+    <nav class="menu-navegacion">
+        <a href="#inicio">Inicio</a>
+        <a href="#vuelos">Vuelos</a>
+        <a href="#alojamientos">Alojamientos</a>
+        <a href="#paquetes">Paquetes</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="contenedor head">
+        <h1 class="titulo">Tu aventura empieza ahora </h1>
+        <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+    </header>
 
       <br>
       <br>
@@ -147,7 +150,7 @@
 <br> 
 
 <div class="paquete_basico">
-<div class="p_texto">
+<div >
   <h3> <u>Paquete basico</u></h3>
 <p>Con el paquete basico disfruta de un evento cultural a eleccion, con el agregado de un 20% de descuento en uno de los restaurantes de renombre.</p>
 </div>
@@ -166,7 +169,7 @@
            
 
       <div class="paquete_extra">
-       <div class="p_texto">
+       <div>
         <h3> <u>Paquete Extra</u></h3>
 <p>Con el paquete extra, te brindamos un evento cultural a eleccion, con 35% de descuento en uno de los restaurantes de la localidad y ademas podes disfrutar de la ventaja de 15% en hospedamiento. </p>
 </div>
@@ -180,7 +183,7 @@
 
    <br>
 <div class="paquete_premium">
-  <div class="p_texto">
+  <div>
     <h3> <u>Paquete Premium</u></h3>
 <p>Con el paquete premium, te ofrecemos 2 fiestas culturas a eleccion, 40 % de descuento en los restauarntes de la localidad, asi como 20% de descuento en hospedamiento y tambien 50% de descuento en una actividad a eleccion de las localidades. </p>
   </div>
@@ -210,16 +213,29 @@
 <br>
 
 
-<footer class="footer">
-    <br>
- <h4>Derechos reservados</h4>
-  <br>
- <a href="">
-    <p>Contacto</p>
- </a>
-  
- <br>
+<footer id="conctacto">
+  <div class="contenedor footer-content">
+   <div class="contact-us">
+       <h2 class="brand">Global Unlimited</h2>
+       <p>Somos expertos en encontrar tu viaje en sueño</p>
+   </div>
+   <div class="social-media">
+       <a href="" class="social-media-icon">
+           <i class='bx bxl-meta'></i>
+       </a>
+       <a href="" class="social-media-icon">
+           <i class='bx bxl-twitter' ></i>
+       </a>
+       <a href="" class="social-media-icon">
+            <i class='bx bxl-instagram' ></i>
+       </a>
+   </div>
+  </div>
+  <div class="line"></div>
 </footer>
 
+
+<script src="/JS/menu.js"></script>
+<script src="JS/lightbox.js"></script>
 </body>
 </html>
