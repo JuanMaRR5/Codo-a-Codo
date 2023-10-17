@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <link rel="icon" href="../Imagenes/TR2.ico">
+</head>
+<body>
+    <header>
+        <header class="header_contacto" id="inicio">
+            <img src="../Imagenes/hamburguesa.svg" alt="" class="hamburger">
+            <nav class="menu-navegacion">
+                <a href="#inicio">Inicio</a>
+                <a href="#vuelos">Vuelos</a>
+                <a href="#alojamientos">Alojamientos</a>
+                <a href="#paquetes">Paquetes</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <div class="contenedor head">
+                <h1 class="titulo">Tu aventura empieza ahora </h1>
+                <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            </header>
+    </header>
+    <br>
+    <main>
+    <h2 class="t-contacto">Contacto</h2>
+    <p class="p-contacto">Aqui puede mandarnos sus inquietudes o dudas y en la brevedad le estaremos respondiendo.</p>
+    <br>
+    <form id="form">
+    <label for="nombre" > Nombre Completo</label>
+    <br>
+  <input type="text" required="text" class="field" id="nombre">
+
+    <br>
+    <br>
+  
+  <label for="email" >Correo electronico </label>
+    <br>
+ <input type="text" class="field" required="text" id="email">
+
+    <br>
+    <br>
+ 
+   <label for="message">Mensaje</label>
+    <br>
+    <textarea name="message" cols="30" rows="10" class="field" id="message"></textarea>
+
+    <br>
+    <br>
+
+    <button type="submit" class="boton-contacto" onclick='return enviarFormulario()' value="Enviar">Enviar</button>
+    </form>
+    </main>
+
+
+
+
+    <footer id="conctacto">
+        <div class="contenedor footer-content">
+         <div class="contact-us">
+             <h2 class="brand">Global Unlimited</h2>
+             <p>Somos expertos en encontrar tu viaje en sueño</p>
+         </div>
+         <div class="social-media">
+             <a href="" class="social-media-icon">
+                 <i class='bx bxl-meta'></i>
+             </a>
+             <a href="" class="social-media-icon">
+                 <i class='bx bxl-twitter' ></i>
+             </a>
+             <a href="" class="social-media-icon">
+                  <i class='bx bxl-instagram' ></i>
+             </a>
+         </div>
+        </div>
+        <div class="line"></div>
+      </footer>
+
+ <script src="/JS/menu.js"></script>
+
+<script src="../JS/formulario.js"></script>
+</body>
+</html>
